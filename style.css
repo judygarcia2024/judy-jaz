@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Pacifico", ;
+    background-color: #ffe4ec;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(Imagenes/banner\ 2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #ff0080;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 15px;
+    color: #ff0080;
+    font-weight: 600;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #ffe4ec;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 850;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-txt{
+    flex-basis: 50%;
+}
+
+.header-txt h1{
+    font-size: 60px;
+    color: aliceblue;
+    line-height: 1.3;
+    margin-right: 25px;
+}
+
+.header-txt span{
+    color: #ff0080;
+}
+
+.header-txt p{
+    font-size: 17px;
+    color: #ff0080;
+    margin-right: 45px;
+}
+
+.butons{
+    display: flex;
+}
+
+.btn-1, .btn-2, .btn-3{
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: #ff0080;
+}
+
+.btn-1 :hover {
+    background-color: #ffffff;
+}
+
+.popular {
+    justify-content: space-between;
+    padding: 100px 0;
+    text-align: center;
+}
+h2{
+    color: #ff0080;
+    font-size: 35px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.vendidos-content{
+    display: flex;
+    justify-content: center;
+}
+
+.vendidos-content img{
+    width: 150px;   
+}
+
+.productos-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+
+.productos-1{
+    background-color: #820544;
+}
+
+.productos-txt{
+    padding: 50px 30px;
+}
+
+h3{
+    font-size: 20px;
+    color: #ff0080;
+    margin-bottom: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p{
+    font-size: 17px;
+    color: #ff0080;
+}
+
+.btn-2{
+    padding: 5px 25px;
+    background-color: #820544;
+    margin-right: 0px;
+}
+
+.contact{
+    padding: 150px 300px;
+}
+
+.contact-content{
+    background-color: #820544;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input{
+    padding: 18px 25px;
+    background-color: #ff0080;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: #820544;
+    font-size: 17px;
+
+}
+
+::placeholder{
+    color: #ffe4ec;
+    font-size: 17px;
+}
+
+.btn-3 {
+    background-color: #ff0080;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link ul li > a{
+    font-size: 17px;
+    color: #820544;
+    margin-right: 20px;
+}
+
+.link ul li > a:hover{
+    color: #820544;
+}
